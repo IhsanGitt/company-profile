@@ -39,7 +39,7 @@ body {
   background: url(https://plus.unsplash.com/premium_photo-1670315267667-69a0b41d8384?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
     no-repeat fixed;
   padding: 0 0;
-  background-size: cover;
+  background-size: cover; 
 }
 
 .hero-center {
@@ -66,7 +66,7 @@ body {
 .overlay {
   width: 100%;
   position: relative;
-  background: rgba(11, 11, 11, 0.336);
+  background: rgba(11, 11, 11, 0.37);
 }
 
 .btn {
@@ -110,3 +110,8 @@ body {
 .about-img img1 {
   height: 20px;
 }
+
+
+.dropdown-menu li a {
+  color: #60686a;
+  }
