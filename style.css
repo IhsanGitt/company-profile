@@ -125,7 +125,7 @@ h1,h2,h3,h4 {
   justify-content: space-between;
     .imgone {
   width: 60%;
-  height: 300px;
+  height: 500px;
 }
     .imgtwo {
   width: 70%;
@@ -144,4 +144,5 @@ h1,h2,h3,h4 {
 h1 {
   text-align: center;
   color: beige;
+  padding: 10px;
 }
