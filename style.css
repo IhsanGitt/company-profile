@@ -1,13 +1,28 @@
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(75deg, #1a1a1a, #cecab3);
+  background: linear-gradient(90deg, #1a1a1a,#1a1a1a,#c0bca6);
+  font-family: "Roboto Slab", system-ui;
+  font-optical-sizing: auto;
 }
 
 .container {
   max-width: 1200px;
   width: 90%;
   margin: auto;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1,h2,h3,h4 {
+  margin: 0;
+}
+.img-responsive {
+  width: 80%;
 }
 
 .header {
@@ -37,14 +52,14 @@ body {
 
 .hero {
   background: url(https://plus.unsplash.com/premium_photo-1670315267667-69a0b41d8384?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
-    no-repeat fixed;
+    no-repeat ;
   padding: 0 0;
   background-size: cover; 
 }
 
 .hero-center {
   text-align: center;
-  padding: 11% 0;
+  padding: 12% 0;
 }
 
 .hero-center h2 {
@@ -66,7 +81,7 @@ body {
 .overlay {
   width: 100%;
   position: relative;
-  background: rgba(11, 11, 11, 0.37);
+  background: rgba(11, 11, 11, 0.397);
 }
 
 .btn {
@@ -79,39 +94,54 @@ body {
   font-weight: 700;
 }
 
-.about {
-  padding: 10px 0;
-  color: beige;
 
-  &-des {
+
+.about {
+  padding: 10% 0;
+  color: white;
+  
+  h4 {
+  color: #ffac42;
+  font-size: 1.5rem;
+}
+  p {
+  line-height: 190%;
+  font-size: 1.1rem;
+}
+
+  h3 {
+    font-size: 2rem;
+  }
+  
+  &-desc {
     width: 50%;
   }
-
-  h4 {
-    color: #ffac42;
-    font-size: 1.5rem;
-  }
-
-  p {
-    line-height: 180%;
-  }
 }
 
-.wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.img-responsive {
+.about-img {
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+    .imgone {
+  width: 60%;
+  height: 300px;
 }
-
-.about-img img1 {
-  height: 20px;
+    .imgtwo {
+  width: 70%;
+  height: 500x;
+  overflow: hidden;
+  img{
+    transform: scale(1);
+  }
 }
-
+}
 
 .dropdown-menu li a {
   color: #60686a;
-  }
+}
+
+h1 {
+  text-align: center;
+  color: beige;
+}
