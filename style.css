@@ -118,8 +118,6 @@ h1,h2,h3,h4 {
   font-weight: 700;
 }
 
-
-
 .about {
   padding: 10% 0;
   color: white;
@@ -177,17 +175,19 @@ h1,h2,h3,h4 {
   }
 }
 
-.teks2 {
+.kelas {
   color: beige;
   padding: 40px ;
   margin: 10px;
-  width: 70%;
-  text-align: center; 
-  margin: auto;
+  width: 50%;
   p {
     font-size: 20px;
   }
+  .img3 {
+    
+  }
 }
+
 
 .col {
   padding-bottom: 20px;
